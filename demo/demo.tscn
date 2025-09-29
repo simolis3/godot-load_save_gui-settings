@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://djuh5w62eawsd"]
+
+[ext_resource type="Script" uid="uid://d18at7ao0m1d3" path="res://addons/LSG-Settings/settings_panel.gd" id="1_d6po2"]
+[ext_resource type="Script" uid="uid://bexk0b71vc5dr" path="res://demo/demo.gd" id="1_ytiva"]
+
+[node name="Demo" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ytiva")
+
+[node name="SettingsPanel" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_d6po2")
+metadata/_custom_type_script = "uid://d18at7ao0m1d3"
